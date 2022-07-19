@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+// Css General.
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --durazno: #ddb68d;
+    --negro: #000;
+    --morado: #dcd3ff;
+    --violeta:#8c52ff;
+    --blanco:#fff;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

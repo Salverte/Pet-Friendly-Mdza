@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Bienvenidos a mi Proyecto';
+  title = 'Bienvenidos a mi Pet Friendly Mendoza🐾';
 }

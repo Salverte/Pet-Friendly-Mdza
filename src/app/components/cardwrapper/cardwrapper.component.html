@@ -1,7 +1,13 @@
 
 <div class="wrapper">
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
+    <app-card
+    *ngFor="let lugar of lugares"
+        [imagen]="lugar.imagen"
+        [categoria]="lugar.categoria"
+        [nombre]="lugar.nombre"
+        [contenido]="lugar.contenido"
+        [ubicacion]="lugar.ubicacion"
+
+    ></app-card>
+    
 </div>

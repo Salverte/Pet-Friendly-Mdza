@@ -20,3 +20,13 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .lista{
+       display: block;
+        }
+    .lista-item_link{
+           border: 1px solid var(--blanco);
+       }
+
+    }

@@ -15,3 +15,5 @@ export class LugaresService {
     return this.http.get("assets/lugares.json")
   }
 }
+
+

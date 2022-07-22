@@ -11,14 +11,24 @@ export class AlojamientoComponent implements OnInit {
   constructor(
     private lugaresService :LugaresService
   ) { }
+  
+  data: any;
+
   mostrarLugares () {
     this.lugaresService.getLugares().subscribe(respuesta => {
       console.log(respuesta);
-      // this.data = respuesta;
+      this.data = respuesta;
     });
   }
-  ngOnInit(): void {
+
+
+  //const result = Object.values(???????).filter(item => item.categoria === 'alojamiento');
+  //console.log(result) 
+    
+  
+   ngOnInit(): void {
     this.mostrarLugares()
+  
   }
 
 }

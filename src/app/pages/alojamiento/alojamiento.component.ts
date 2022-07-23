@@ -16,13 +16,25 @@ export class AlojamientoComponent implements OnInit {
 
   mostrarLugares () {
     this.lugaresService.getLugares().subscribe(respuesta => {
+      // const result = Object.entries(respuesta).reduce(([key,value])=>{
+      // if(value.categoria=="Alojamiento"){
+      //   return value
+      let alojamientos: any=[];
+      for (const [key, value] of Object.entries(respuesta)) {
+        if ( value.categoria === 'Alojamiento') {
+          alojamientos.push(value);
+       }}
+   
+      console.log(alojamientos)
+       
       console.log(respuesta);
-      this.data = respuesta;
+      this.data = alojamientos;
     });
   }
+  
 
 
-  //const result = Object.values(???????).filter(item => item.categoria === 'alojamiento');
+  //
   //console.log(result) 
     
   

@@ -1,4 +1,13 @@
 
 <h2>Gastronomía</h2>
-
-<app-cardwrapper></app-cardwrapper>
+<div class="wrapper">
+    <app-card
+    *ngFor="let lugar of data"
+        [imagen]="lugar.imagen"
+        [categoria]="lugar.categoria"
+        [nombre]="lugar.nombre"
+        [contenido]="lugar.contenido"
+        [ubicacion]="lugar.ubicacion"
+    ></app-card>
+    
+</div>

@@ -16,4 +16,30 @@ export class LugaresService {
   }
 }
 
+// findLugares (termino: string) {
+//   return this.http.get(`/buscar?termino=${termino}`);
+// }
+
+// FUNCIÓN FIND DONDE VA?
+// const db = require('../lugares');
+
+// // // WHERE titulo LIKE "%termino%"
+// const findLugares = async (termino) => {
+//    const lugar = await db.lugares.findAll({
+//        where: {
+//                    nombre: {
+//                [Op.substring]: termino,
+//                          }
+//               }
+//    }).then(result => {
+//       return result;
+//    });
+
+//    return lugar;
+//    }
+
+//  module.exports = {
+//    findLugares
+//  }
+
 

@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 //esto se agrego para que funcione el servicio
 import { HttpClientModule } from '@angular/common/http';
+//Importamos ReactiveForms
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -30,7 +32,8 @@ import { BuscarComponent } from './pages/buscar/buscar.component';
     BrowserModule,
     AppRoutingModule,
     //acá tmn se agrega para que funcione el servicio
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
 
   ],
   providers: [],

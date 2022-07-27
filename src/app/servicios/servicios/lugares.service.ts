@@ -14,14 +14,11 @@ export class LugaresService {
   getLugares() {
     return this.http.get("assets/lugares.json")
   }
+
+
 }
-
-// findLugares (termino: string) {
-//   return this.http.get(`/buscar?termino=${termino}`);
-// }
-
 // FUNCIÓN FIND DONDE VA?
-// const db = require('../lugares');
+ //const db = require('../lugares');
 
 // // // WHERE titulo LIKE "%termino%"
 // const findLugares = async (termino) => {

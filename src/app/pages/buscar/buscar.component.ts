@@ -16,22 +16,32 @@ export class BuscarComponent implements OnInit {
   });
 
 
+
   constructor(
     private lugaresService: LugaresService
   ) { }
+  mostrarFiltrados = false
+  data : any
 
   onSubmit() {
     console.log("Vas re bien");
+    const {termino} = this.busquedaForm.value;
+    this.lugaresService.getLugares().subscribe(respuesta => {
+      console.log (respuesta);
+      let filtrados = []
+      for (const [key, value] of Object.entries(respuesta)) {
+        if ( value.nombre.includes(termino)) {
+          filtrados.push(value);
+          
+       }}
+       console.log(filtrados);
+       this.data = filtrados;
+       this.mostrarFiltrados = true;
+
+    });
   }
 
- //Conseguir el dato de lo que tipeo el usuario
-  //   const { termino }= this.busquedaForm.value;
-
-  //   this.lugaresService.findLugares(termino).subscribe(lugares => {
-  //     console.log('Resultados', lugares);
-  //   });
-  // }
-
+ 
 
   ngOnInit(): void {
   }

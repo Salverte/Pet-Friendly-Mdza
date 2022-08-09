@@ -2,3 +2,41 @@ h2 {
     color: var(--durazno);
     text-align: center;
 }
+
+.informacion {
+    background-color: var(--violeta);
+    padding: 32px;
+    
+
+}
+.titulo_tex{
+    text-align: center;
+    font-size: large;
+    // text-decoration: solid;
+    color: var(--blanco);
+    background-color: var(--violeta);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.somos_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Esto separa cada casillero de la grilla "gap" */
+    gap: 25px; 
+    align-items: center;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+
+.somos_img {
+    max-width: 450px;
+    text-align: center;
+}
+
+.recomendaciones {
+    color: var(--blanco);
+    text-decoration: solid;
+}

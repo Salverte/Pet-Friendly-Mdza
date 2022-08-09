@@ -9,3 +9,12 @@ h2 {
         display: block;
     }
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+
+    width: 90%;
+    margin: 30px auto;
+} 

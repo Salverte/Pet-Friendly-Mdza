@@ -2,6 +2,7 @@
     list-style-type: none;
     background-color: var(--violeta);
     display: flex;
+    margin-top: 15px;
 
     &-item {
         flex-grow: 1;
@@ -10,7 +11,8 @@
             display: block;
             padding: 8px 0;
             text-align: center;
-            font-weight: bold;
+            font-size: x-large;
+            // font-weight: bold;
             color: var(--blanco);
             text-decoration: none;
 

@@ -3,14 +3,14 @@
     max-width: 360px;
     margin:40px;
     // Fin temporal
-
+    background-color: var(--blanco);
     border-radius: 8px;
-    border: 1px solid var(--durazno);
+    border: 2px solid var(--durazno);
     height: 50vh;
     min-height: 400px;
 
     &-img {
-        max-width: 360px;
+        width: 100%;
         height: 200px;
         object-fit: cover;
         border-radius: 8px 8px 0 0;
@@ -30,7 +30,7 @@
         &_categoria {
             color: var(--durazno);
             // text-transform: uppercase;
-            font-size: 12px;
+            font-size: 16px;
             font-weight: normal;
             margin-bottom: 8px;
         }

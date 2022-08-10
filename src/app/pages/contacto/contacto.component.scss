@@ -11,7 +11,7 @@ h2 {
 }
 .titulo_tex{
     text-align: center;
-    font-size: large;
+    font-size: 20px;
     // text-decoration: solid;
     color: var(--blanco);
     background-color: var(--violeta);
@@ -22,6 +22,7 @@ h2 {
 .somos_info {
     display: grid;
     text-align: center;
+    font-size: 16px;
     grid-template-columns: 1fr 1fr;
     /* Esto separa cada casillero de la grilla "gap" */
     gap: 25px; 

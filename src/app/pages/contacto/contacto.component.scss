@@ -9,15 +9,6 @@ h2 {
     
 
 }
-.titulo_tex{
-    text-align: center;
-    font-size: 20px;
-    // text-decoration: solid;
-    color: var(--blanco);
-    background-color: var(--violeta);
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 .somos_info {
     display: grid;
@@ -32,6 +23,17 @@ h2 {
     margin-left: auto;
     margin-bottom: 40px;
 }
+.titulo_tex{
+    text-align: center;
+    font-size: 20px;
+    // text-decoration: solid;
+    color: var(--blanco);
+    background-color: var(--violeta);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
 
 .somos_img {
     max-width: 450px;
@@ -42,3 +44,13 @@ h2 {
     color: var(--blanco);
     text-decoration: solid;
 }
+
+@media (max-width: 767px) {
+    .somos_info{
+       display: block;
+        }
+    .somos_img{
+        width: 100%;
+    }
+
+    }

@@ -1,3 +1,15 @@
+## Pautas de entrega opcionales seleccionadas
+1.	Animaciones con CSS (pendiente)
+2.	Etiquetas semánticas de HTML (div, footer, nav, header/cabecera, etc.)
+3.	Accesibilidad (pendiente)
+5.	Llamada a un JSON interno
+6.	Responsive 767px: nav, wrapper, images, contacto info.
+7.	Usa manejo de paquetes (NPM)
+8.	Desarrollo cool en JS: Filtro de categorías.
+9.	Sitio subido a Netlify.
+10.	Sitio en Angular.
+
+
 # Petfriendlymdz
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.

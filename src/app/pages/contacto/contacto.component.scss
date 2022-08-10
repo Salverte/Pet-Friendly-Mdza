@@ -21,6 +21,7 @@ h2 {
 
 .somos_info {
     display: grid;
+    text-align: center;
     grid-template-columns: 1fr 1fr;
     /* Esto separa cada casillero de la grilla "gap" */
     gap: 25px; 

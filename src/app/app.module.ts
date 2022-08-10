@@ -15,6 +15,7 @@ import { RecreacionComponent } from './pages/recreacion/recreacion.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { AlojamientoComponent } from './pages/alojamiento/alojamiento.component';
 import { BuscarComponent } from './pages/buscar/buscar.component';
+import { CabeceraComponent } from './components/cabecera/cabecera.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { BuscarComponent } from './pages/buscar/buscar.component';
     RecreacionComponent,
     ContactoComponent,
     AlojamientoComponent,
-    BuscarComponent
+    BuscarComponent,
+    CabeceraComponent
   ],
   imports: [
     BrowserModule,

@@ -17,6 +17,7 @@ import { AlojamientoComponent } from './pages/alojamiento/alojamiento.component'
 import { BuscarComponent } from './pages/buscar/buscar.component';
 import { CabeceraComponent } from './components/cabecera/cabecera.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FooterComponent } from './components/footer/footer.component';
     AlojamientoComponent,
     BuscarComponent,
     CabeceraComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

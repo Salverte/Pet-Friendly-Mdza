@@ -6,7 +6,7 @@
 6.	Responsive 767px: nav, wrapper, images, contacto info.
 7.	Usa manejo de paquetes (NPM)
 8.	Desarrollo cool en JS: Filtro de categorías.
-9.	Sitio subido a Netlify.
+9.	Sitio subido a Netlify: https://fluffy-crepe-acf03c.netlify.app/
 10.	Sitio en Angular.
 
 

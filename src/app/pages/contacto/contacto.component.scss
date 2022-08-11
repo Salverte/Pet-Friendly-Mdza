@@ -13,7 +13,7 @@ h2 {
 .somos_info {
     display: grid;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     grid-template-columns: 1fr 1fr;
     /* Esto separa cada casillero de la grilla "gap" */
     gap: 25px; 
@@ -42,7 +42,7 @@ h2 {
 
 .recomendaciones {
     color: var(--blanco);
-    text-decoration: solid;
+    font-size: 18px;
 }
 
 @media (max-width: 767px) {

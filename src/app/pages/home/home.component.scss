@@ -1,3 +1,4 @@
+
 .productos{
     background-color: var(--morado);
     justify-content:center;
@@ -13,7 +14,7 @@
    /* esto centra la imagen */
   text-align: center;
   margin-bottom: 40px;
-  margin-left: 20px;
+  margin: 20px;
 }
 .recomendaciones-img{
   max-width: 300px;
@@ -25,7 +26,7 @@
     text-align: center;
     background-color: var(--blanco);
     padding: 32px;
-    margin-right: 20px;
+    margin: 20px;
     list-style: none;
     
     /* display: grid;
@@ -40,6 +41,7 @@
        color: var(--negro) ;
        list-style: none;
        text-decoration: none;
+       font-size: 18px;
        
 }
 

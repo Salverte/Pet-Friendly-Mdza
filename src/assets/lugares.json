@@ -4,7 +4,7 @@
       "imagen":"assets/lugares/parquesanmartin.jpg",
       "categoria":"Recreación",
       "nombre": "Parque General San Martín",
-      "contenido": "Info del lugar",
+      "contenido": "Es el lugar ideal para disfrutar de un buen momento y aprovechar la naturaleza y el aire libre.",
       "ubicacion": "Av. Boulogne Sur Mer"
     },
 
@@ -44,7 +44,7 @@
       "imagen":"assets/lugares/parkhyatt.jpg",
       "categoria":"Alojamiento",
       "nombre": "Park Hyatt",
-      "contenido": "Info del lugar",
+      "contenido": "Lujo y comodidad. Ubicación privilegiada",
       "ubicacion": "Av. Chile"
     },
 
@@ -52,7 +52,40 @@
       "imagen":"assets/lugares/sheraton.jpg",
       "categoria":"Alojamiento",
       "nombre": "Sheraton",
-      "contenido": "Info del lugar",
+      "contenido": "Hotel cinco estrellas. Toda la comodidad para hospedarte con tu mascota.",
       "ubicacion": "Primitivo de la Reta 989"
+    },
+
+    {
+      "imagen":"assets/lugares/posadachaletbassi.jpg",
+      "categoria":"Alojamiento",
+      "nombre": "Posada Chalet Bassi",
+      "contenido": "Patrimonio Cultural y Arquitectónico, por su historia y belleza.",
+      "ubicacion": "Primitivo de la Reta 989"
+    },
+
+    {
+      "imagen":"assets/lugares/beerlin.jpg",
+      "categoria":"Gastronomía",
+      "nombre": "Beerlin",
+      "contenido": "Un lugar ideal para ir con tu perro y amigos. ",
+      "ubicacion": "Av. Aristides Villanueva 129"
+    },
+
+    {
+      "imagen":"assets/lugares/modesto.jpg",
+      "categoria":"Gastronomía",
+      "nombre": "Modesto Café",
+      "contenido": "Cafés especiales, desayunos y meriendas. ",
+      "ubicacion": "San Martín 1640 - Godoy Cruz"
+    },
+
+    {
+      "imagen":"assets/lugares/antares.jpg",
+      "categoria":"Gastronomía",
+      "nombre": "Antares Mendoza",
+      "contenido": "En la zona mas linda de la ciudad de Mendoza para pasar un buen rato con amigos y por supuesto, tu perro!  ",
+      "ubicacion": "Av. Aristides Villanueva 153"
     }
+
 ]

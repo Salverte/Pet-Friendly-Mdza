@@ -1,13 +1,12 @@
 ## Pautas de entrega opcionales seleccionadas
-1.	Animaciones con CSS (pendiente)
+1.	Animacion con CSS. 
 2.	Etiquetas semánticas de HTML (div, footer, nav, header/cabecera, etc.)
-3.	Accesibilidad (pendiente)
-5.	Llamada a un JSON interno
-6.	Responsive 767px: nav, wrapper, images, contacto info.
-7.	Usa manejo de paquetes (NPM)
-8.	Desarrollo cool en JS: Filtro de categorías.
-9.	Sitio subido a Netlify: https://fluffy-crepe-acf03c.netlify.app/
-10.	Sitio en Angular.
+3.	Llamada a un JSON interno
+4.	Responsive 767px: nav, wrapper, images, contacto info.
+5.	Usa manejo de paquetes (NPM)
+6.	Desarrollo cool en JS: Filtro de categorías.
+7.	Sitio subido a Netlify: https://fluffy-crepe-acf03c.netlify.app/
+8.	Sitio en Angular.
 
 
 # Petfriendlymdz

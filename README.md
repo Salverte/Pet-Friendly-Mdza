@@ -4,7 +4,7 @@
 3.	Llamada a un JSON interno
 4.	Responsive 767px: nav, wrapper, images, contacto info.
 5.	Usa manejo de paquetes (NPM)
-6.	Desarrollo cool en JS: Filtro de categorías.
+6.	Desarrollo en JS: Filtro de categorías.
 7.	Sitio subido a Netlify: https://fluffy-crepe-acf03c.netlify.app/
 8.	Sitio en Angular.
 
